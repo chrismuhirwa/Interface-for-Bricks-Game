@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(57, 187, 57);
+    text-align: right;
+    font-size: 14px;
+    padding-right: 10%;
+}
+.container {
+    display: grid;
+}
+.container > * {
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.black-box {
+    background-color: black !important;
+    border: none !important;
+}
+body {
+    background-color: black;
+}
+.main {
+    border: 10px solid rgb(114, 212, 114);
+    height: 100VH;
+}
+#box-1 {
+    padding-top: 42px;
+}
+#box-1>div {
+    border: 1px solid black;
+    height: 25px;
+    background-color:red;
+}
+#box-2>div {
+    border: 1px solid black;
+    height: 25px;
+    background-color: yellow;
+}
+#box-3>div {
+    border: 1px solid black;
+    height: 25px;
+    background-color: green;
+}
+#box-4>div {
+    border: 1px solid black;
+    height: 25px;
+    background-color: blue;
+}
